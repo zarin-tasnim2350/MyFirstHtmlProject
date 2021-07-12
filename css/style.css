@@ -1,0 +1,736 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style  starts*/
+
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.float-clear{
+    clear: both;
+}
+img{
+    width: 100%;
+}
+
+.button{
+    transition: .4s;
+    cursor: pointer;
+    font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
+    color: #fff;
+     background-color: transparent;
+    outline: none;
+    border: 0.125rem solid #fff;   
+     border-radius: 2rem;
+    padding: 0.475rem 1.5rem 0.475rem 1.5rem;
+}
+.button:hover{
+    background-color: #fff;
+    color: #5f4dee;
+}
+/* common style ends */
+/* header style starts */
+ header .sticky-head{
+    background-color: #6555DA;
+    position: sticky;
+    top: 0;
+}
+header{
+    background-color: #6555DA;
+}
+
+.header{
+    padding: 40px 0;
+    background-color: #6555DA;
+}
+.logo{
+    float: left;
+    width: 25%;
+}
+.nav-bar{
+    float: left;
+    width: 75%;
+}
+.logo-img{
+    width: 80px;
+    margin-top: 10px;
+    height: 28px;
+}
+
+/* nav bar style starts */
+
+.navigation{
+    text-align: end;
+}
+
+.navigation .menu{
+    margin: 0;
+    padding: 0;
+     list-style: none;
+
+}
+.navigation .menu li{
+    
+    position: relative;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.navigation .menu li a{
+    font: 700 0.875rem/0.875rem "Open Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bx-caret-down{
+    
+    font-size: 13px;
+    color: #fff;
+}
+.navigation .menu ul{
+    z-index: 999;
+    
+    display: none;
+    width: 180px;
+    background-color: #6555DA;
+    position:absolute;
+    top: 100%;
+    left: 0;
+    text-align: start;
+
+}
+
+.navigation .menu ul .border{
+    border-bottom: 0.3px solid #f3f7fd;
+    border-top: 0.3px solid #f3f7fd;
+
+
+}
+
+.navigation .menu li:hover ul{
+    display: block;
+}
+/* nav bar style ends */
+
+.header-text{
+    float: left;
+    width: 40%;
+    margin-right: 4%;
+    
+}
+.header-img{
+    float: left;
+    width: 56%;
+    
+
+}
+.header-img-and-text{
+    padding-top: 80px;
+}
+
+.header h1{
+    padding-top: 80px;
+    text-align: left;
+    line-height: 4.125rem;
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    font: 700 2.5rem/3.125rem "Open Sans", sans-serif;
+    letter-spacing: -0.2px;
+
+}
+
+.header-text h1{
+    letter-spacing: -0.2px;
+    line-height: 4.125rem;
+
+
+    font-size: 3.5rem;
+}
+.header-section-img{
+    width: 100%;
+}
+
+.header .p-large{
+    margin-right: 50px;
+    font: 400 1.125rem/1.75rem "Open Sans", sans-serif;
+    color: #f3f7fd;
+    margin-bottom: 2rem;
+}
+
+.bt{
+    cursor: pointer;
+    border:2px solid #fff;
+    transition: .4s;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    border-radius: 2rem;
+    outline: none;
+    color: #5f4dee;
+    background-color: #f3f7fd;
+    padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+}
+.bt:hover{
+    background-color: #6555DA;
+    color: #fff;
+    
+}
+.header-text a{
+    text-decoration: none;
+}
+
+/* header style ends */
+
+/* description style starts */
+.description{
+    padding: 100px 0;
+}
+.above-heading {
+    color: #5f4dee;
+    font: 700 0.75rem/0.875rem "Open Sans", sans-serif;
+    text-align: center;
+}
+.des-heading{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    color: #333;
+    font: 700 2rem/2.625rem "Open Sans", sans-serif;
+    letter-spacing: -0.2px;
+        
+}
+
+.card-one,.card-three{
+    float: left;
+    width: 30%;
+
+}
+.card-two{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+}
+.description-cards{
+    padding-top: 100px;
+}
+.card-one{
+    text-align: center;
+}
+.card-three{
+    text-align: center;
+}
+.card-two{
+    text-align: center;
+}
+.card img{
+    
+    height: 200px;
+    width: 200px;
+}
+
+.card .card-title{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font: 700 1.375rem/1.75rem "Open Sans", sans-serif;
+    letter-spacing: -0.1px;
+    word-wrap: break-word;
+}
+
+.card p{
+    color: #555;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    text-align: center;
+
+}
+/* description style ends */
+
+/* feature style starts */
+.features{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #F3F7FD;
+}
+.p-heading{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    
+    margin-bottom: 3.25rem;
+    color: #555;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+.feature-link-list{
+    padding: 20px 0;
+    text-align: center;
+}
+.feature-link-list ul li{
+    
+    list-style: none;
+    display: inline;
+}
+
+.feature-link-list li a{
+    text-decoration: none;
+}
+.f-list a{
+    border-bottom:3px solid #555;
+     color: #555;
+     font: 400 1rem/1.625rem "Open Sans", sans-serif;
+     margin-bottom: 2.75rem;
+}
+.active{
+    color: #6555DA;
+    border-bottom: 3px solid #5556DA;
+
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    margin-bottom: 2.75rem;
+}
+.feature-link-list  li:hover a{
+
+
+color:#6555DA;
+border-color: #6555DA;
+
+}
+
+.feature-img-and-text{
+    padding-top: 30px;
+}
+.feature-img{
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+}
+
+.feature-text{
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+}
+
+.feature-text h3{
+    margin-top: 1rem;
+
+    color: #333;
+    font: 700 1.625rem/2.125rem "Open Sans", sans-serif;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+
+.feature-text p{
+    margin-top: 1rem;
+    color: #555;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    margin-bottom: 1rem;
+}
+
+.f-text-list li{
+
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    color: #555;
+    margin-bottom: 1.1rem;
+    list-style: none;
+}
+.check-box{
+    color: #6555DA;
+}
+.feature-text .light-bt{
+    text-decoration: none;
+}
+
+
+.light{
+    transition: .4s;
+    cursor: pointer;
+
+    border-radius: 2rem;
+
+    padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+
+    color: #fff;
+    outline: none;
+    background-color: #5556DA;
+    border: 2px solid #5556DA;
+}
+.light:hover{
+    background-color: #fff;
+    color: #5556DA;
+}
+
+
+/* feature style ends */
+
+/* upgrade style starts */
+
+.upgrade{
+    padding: 150px 0;
+}
+
+.upgrade-text{
+    float: left;
+    width: 47%;
+    margin-right: 3%;
+}
+.upgrade-pic{
+    float: left;
+    width: 47%;
+    margin-left: 3%;
+}
+.upgrade-text h3{
+    margin-top: 1rem;
+
+    color: #333;
+    font: 700 1.625rem/2.125rem "Open Sans", sans-serif;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+.upgrade-text p{
+    margin-top: 1rem;
+    color: #555;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    margin-bottom: 1rem;
+}
+.butt{
+    padding-top: 15px;
+}
+
+
+/* upgrade style ends */
+
+/* only pic style starts */
+.only-pic{
+    padding: 150px 0;
+    background-color: #F3F7FD;
+}
+
+.pic{
+    
+    width: 70%;
+    margin: auto;
+}
+.only-picture{
+    border-radius: 3%;
+}
+.text{
+    padding-top: 20px;
+    
+}
+
+/*only pic style ends */
+
+/* pricing style starts */
+.pricing{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pricing-heading{
+    padding: 40px 0;
+}
+
+.price-heading{
+    
+    color: #5f4dee;
+    font: 700 1.125rem/1.5rem "Open Sans", sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.price{
+    float: left;
+    width: 30%;
+}
+.price-two{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.price-icons{
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    
+ 
+    margin-right:  0.25rem;
+
+    color: #434c54;
+
+   font-weight: 700;
+   font-size: 1.5rem;
+   vertical-align: 40%
+
+
+}
+
+.price-value{
+    font: 700 3.25rem/3.5rem "Open Sans", sans-serif;
+    
+    color: #434c54;
+    word-wrap: break-word;
+}
+.main-price-icons{
+    text-align: center;
+}
+.frequency{
+    font-size: 0.875rem;
+    word-wrap: break-word;
+    text-align: center;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    color: #555;
+
+}
+.line{
+    background-color: #ccd3df;
+    border: none;
+    margin-top: 1.75rem;
+    height: 1px;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+.price{
+    padding: 40px 40px;
+    border: 1px solid #ccd3df;
+    border-radius: 3%;
+}
+
+.p-icons{
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+.price-text{
+    float: left;
+    width: 80%;
+}
+
+.p-icons-and-text li{
+    padding: 5px 0;
+    list-style: none;
+
+}
+
+.batt{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bx-check{
+    color: #5f4dee;
+    line-height: 1.625rem;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+.pp-text li{
+    margin-top: 3px;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    color: #555;
+}
+
+.pp-icons li{
+padding:9px 0;    
+}
+/*pricing style ends */
+/* testimonial style starts */
+
+
+.testimonial-pic{
+    float: left;
+    width: 30%;
+    
+}
+.testimonial-text{
+    float: left;
+    width: 70%;
+    
+}
+.testimonial-pic{
+    text-align: center;
+}
+.test-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.testt{
+    padding-bottom: 50px;
+}
+
+.testimonial-text{
+    margin-top: 20px;
+    font: italic 400 1rem/1.625rem "Open Sans", sans-serif;
+    text-align: start;
+}
+.testimonial-author{
+    padding-top: 10px;
+    color: #333;
+    font: 700 1rem/1.625rem "Open Sans", sans-serif;
+    letter-spacing: -0.1px;
+}
+/* testimonial syle ends */
+/*form style starts */
+.form-div a{
+    color: #555;
+}
+
+.form-div{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    margin: auto;
+    width: 40%;
+    
+}
+.check-boxx{
+    display: inline-block;
+    color: #555;
+}
+.form-spn{
+    color:#555;
+}
+.e-input{
+    height: 50px;
+    width: 480px;
+}
+.s-input{
+    transition: .4s;
+    color: #fff;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    border: 1px solid #5f4dee;
+    cursor: pointer;
+    background-color: #5f4dee;
+    width: 480px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+}
+.s-input:hover{
+    background-color: transparent;
+    color: #5f4dee;
+}
+.box{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: #F3F7FD;
+}
+
+.round-list{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.round-list li{
+    padding: 0 5px;
+    
+    display: inline-block;
+    list-style: none;
+}
+
+.round-list li a{
+    transition: .4s;
+    padding: 8px 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #5f4dee;
+    color: #fff;
+    text-decoration: none;
+}
+.round-list li a:hover{
+    color:#5f4dee;
+    background-color:#F3F7FD;
+}
+.round-icons{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* form style ends */
+
+/* footer section style starts*/
+
+/*link section style starts */
+.footer-link-sec{
+    padding: 50px 0;
+    padding-top: 80px;
+    background-color: #6555DA;
+}
+.col{
+    float: left;
+    width: 30%;
+}
+.col-two{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer h4{
+    margin-bottom: 0.625rem;
+    color: #fff;
+    font: 700 1.375rem/1.75rem "Open Sans", sans-serif;
+    letter-spacing: -0.1px;
+}
+
+.p-small{
+    color: #f3f7fd;
+    font: 400 0.875rem/1.5rem "Open Sans", sans-serif;
+    margin-bottom: 1rem;
+}
+.foott-link li{
+    color: #f3f7fd;
+    font:400 0.875rem/1.5rem "Open Sans", sans-serif;
+    list-style: none;
+}
+.foott-link li a{
+    color: #f3f7fd;
+    font:400 0.875rem/1.5rem "Open Sans", sans-serif;
+
+}
+
+.marge{
+    padding: 0 5px;
+}
+span .m{
+    padding-right: 4px;
+}
+.tivo{
+    margin-left: 5px;
+}
+
+
+/*link section style ends */
+
+/* solid section style starts */
+.foot-solid{
+    background-color: #6555DA;
+}
+.solid-head{
+    border-top: 1px solid #ccd3df;
+    padding: 40px 0;
+    text-align: center;
+}
+.solid-head a{
+    color: #F3F7FD;
+}
+
+/* solid section style ends */
+
+/*footer section style ends */
+
+
